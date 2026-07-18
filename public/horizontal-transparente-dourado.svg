@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" role="img" aria-label="Axis — horizontal transparente dourado">
+  
+  <g transform="translate(24 24) scale(1.12)">
+      <g fill="none" stroke="#C99552" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter">
+        <path d="M15 75V25L38 51L59 25V75"/>
+        <path d="M59 25H72C81 25 86 30 86 38C86 45 81 50 72 50H59H74C83 50 88 55 88 63C88 71 83 75 73 75H59"/>
+      </g></g>
+  <path d="M154 42V118" stroke="#C99552" stroke-width="2" opacity=".65"/>
+  <text x="184" y="76" fill="#111315" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="4">MATHEUS</text>
+  <text x="184" y="108" fill="#111315" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="300" letter-spacing="4">BENEVENUTO</text>
+</svg>

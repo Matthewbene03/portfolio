@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- 
+    Monograma MB - Matheus Benevenuto
+    Design Minimalista, Geométrico e Autoral 
+  -->
+  <g fill="none" stroke="#C99552" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+    <!-- O "M" e o "B" integrados em uma única construção geométrica -->
+    <!-- Haste inicial do M -->
+    <path d="M 120,380 L 120,120" />
+    
+    <!-- Diagonal do M que desce e sobe -->
+    <path d="M 120,120 L 210,270 L 300,120" />
+    
+    <!-- Haste central compartilhada (Perna do M e espinha do B) -->
+    <path d="M 300,120 L 300,380" />
+    
+    <!-- Bojo superior do B (conectado à estrutura central) -->
+    <path d="M 300,120 L 370,120 C 420,120 420,240 370,240 L 300,240" />
+    
+    <!-- Bojo inferior do B -->
+    <path d="M 300,240 L 380,240 C 435,240 435,380 380,380 L 120,380" />
+  </g>
+</svg>
