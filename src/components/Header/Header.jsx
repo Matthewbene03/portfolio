@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Button } from 'antd';
 
 import { Nav, ImgLogo } from "./styled";
-import * as rotas from "../../config/rotas"
 import logo from "../../../public/gemini-svg.svg"
 
 const NavItens = [
