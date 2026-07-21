@@ -7,6 +7,10 @@ import { sobreTitulo, titulo, align, paragrafo, btnCurriculo, urlImg } from "../
 
 //Componentes proprios utilizados na section
 import SectionTitle from "../../components/SectionTitle/SectionTitle"
+import imgMatheus from "../../img/imagensTestes/euIa.png"
+
+//Arquivos de estilos para a section Home
+import { SobreTitulo, Titulo, Descricao, BtnCurriculo, BtnContatos, Img } from "./style"
 
 export default function Home() {
 
@@ -20,46 +24,30 @@ export default function Home() {
         justify="center"
         align="flex-start"
         style={appTheme.homeSectionTexto}>
-        <p>{sobreTitulo}</p>
-        <h1 >{titulo}</h1>
-        <p>
-          {paragrafo}
-        </p>
-        <Flex
-          gap={"10px"}
-          style={{
-            width: "100%",
-            border: '2px solid red'
-          }}>
-          <Button
-            style={{
-              width: '55%'
-            }}>
+        <SobreTitulo>{sobreTitulo}</SobreTitulo>
+        <Titulo>{titulo}</Titulo>
+        <Descricao>{paragrafo}</Descricao>
+        <Flex gap={"20px"}>
+          <BtnCurriculo>
             <DownloadOutlined /> {btnCurriculo}
-          </Button>
-          <Button
-            style={{
-              width: '15%'
-            }}>
+          </BtnCurriculo>
+
+          <BtnContatos>
             <GithubOutlined />
-          </Button>
-          <Button
-            style={{
-              width: '15%'
-            }}>
+          </BtnContatos>
+
+          <BtnContatos>
             <LinkedinFilled />
-          </Button>
-          <Button
-            style={{
-              width: '15%'
-            }}>
+          </BtnContatos>
+
+          <BtnContatos>
             <MailOutlined />
-          </Button>
+          </BtnContatos>
         </Flex>
       </Flex>
-      <Flex
-        style={appTheme.homeSectionImagem}
-      > Imagem </Flex>
+      <Flex style={appTheme.homeSectionImagem}>
+        <Img src={imgMatheus} alt="" />
+      </Flex>
     </Flex>
   )
 }

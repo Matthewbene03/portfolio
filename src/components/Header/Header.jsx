@@ -24,7 +24,8 @@ function Header() {
 
       <div>
         {NavItens.map(({ id, label }) => (
-          <Button 
+          <Button
+            className='btnAncora'
             type='link'
             key={id}
           >

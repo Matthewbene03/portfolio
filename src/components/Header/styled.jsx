@@ -6,16 +6,29 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   
-  padding: 20px 150px;
+  height: 100px;
+  padding: 0px 150px;
+  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 
+  background: rgba(8, 9, 9, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(165, 104, 25, 0.15);
   color: ${color.colorTextBase};
   
-  a{
+  z-index: 1000;
+  
+  .btnAncora{    
     margin-right: 10px;
     font-weight: bold;
+    text-decoration: none;
   }
 
-  a:hover{
+  .btnAncora:hover{
     border-bottom: 2px solid ${color.CorCinza};
   }
 `;

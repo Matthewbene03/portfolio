@@ -20,6 +20,7 @@ const appTheme = {
         padding: 0,
     },
     contentStyle: {
+        flex: 1,
         color: color.PrimeiraCorClara,
         backgroundColor: color.PrimeiraCorClara,
     },
@@ -29,6 +30,9 @@ const appTheme = {
         backgroundColor: color.PrimeiraCorClara,
     },
     layoutStyle: {
+        display: 'flex',
+        flexDirection: 'column',
+
         borderRadius: 8,
         overflow: 'hidden',
         width: '100vw',
@@ -36,20 +40,18 @@ const appTheme = {
     },
     homeSection: {
         width: '100%',
-        margin: "0 auto",
-        padding: '0px 150px',
+        minHeight: '100vh',
+        padding: '100px 150px 0', // 100px em cima = altura do header
+        margin: '0 auto',
         color: color.colorTextBase,
-        border: '2px solid blue'
     },
     homeSectionTexto: {
         width: '40%',
         color: color.colorTextBase,
-        border: '2px solid red'
     },
     homeSectionImagem: {
         width: '60%',
         color: color.colorTextBase,
-        border: '2px solid red'
     },
 }
 
