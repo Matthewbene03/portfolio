@@ -1,10 +1,18 @@
 import styled from "styled-components";
-import appTheme from "../../config/theme/appTheme";
-
-export const Titulo = styled.div`
-
-`;
+import * as color from "../../config/color";
 
 export const SobreTitulo = styled.span`
-    color: ${appTheme.color.colorLink};
+    line-height: 1.3;
+    color: ${color.colorLink};
+    font-weight: bold;
+    font-size: 25px;
+`;
+
+export const Titulo = styled.h2`
+    line-height: 0.9;
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: 50px;
+    white-space: pre-line;
+    color: ${color.colorTextBase};
 `;

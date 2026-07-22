@@ -1,13 +1,12 @@
-import { Button, Flex } from "antd"
+import { Flex } from "antd"
 import { DownloadOutlined, GithubOutlined, LinkedinFilled, MailOutlined } from '@ant-design/icons'
 
 //Arquivos de configurações da sections
 import appTheme from "../../config/theme/appTheme"
-import { sobreTitulo, titulo, align, paragrafo, btnCurriculo, urlImg } from "../../data/home"
+import { sobreTitulo, titulo, paragrafo, btnCurriculo} from "../../data/home"
 
 //Componentes proprios utilizados na section
-import SectionTitle from "../../components/SectionTitle/SectionTitle"
-import imgMatheus from "../../img/imagensTestes/euIa.png"
+import urlImg from "../../img/imagensTestes/imgHome.webp"
 
 //Arquivos de estilos para a section Home
 import { SobreTitulo, Titulo, Descricao, BtnCurriculo, BtnContatos, Img } from "./style"
@@ -45,8 +44,11 @@ export default function Home() {
           </BtnContatos>
         </Flex>
       </Flex>
-      <Flex style={appTheme.homeSectionImagem}>
-        <Img src={imgMatheus} alt="" />
+      <Flex 
+      align="center"
+      justify="center"
+      style={appTheme.homeSectionImagem}>
+        <Img src={urlImg} alt="" />
       </Flex>
     </Flex>
   )

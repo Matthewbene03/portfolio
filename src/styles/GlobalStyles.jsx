@@ -27,22 +27,4 @@ export default createGlobalStyle`
         font-weight: normal;
         text-decoration: none;
     }
-
-    .menu-dropdown .ant-dropdown-menu {
-        min-width: 186px;
-        padding: 6px;
-        background-color: #ffffff;
-        border-radius: 0 0 8px 8px;
-    }
-
-    .menu-dropdown .ant-dropdown-menu-item {
-        padding: 10px;
-        color: #111;
-        font-size: 14px;
-    }
-
-    .menu-dropdown .ant-dropdown-menu-item:hover {
-        background-color: #eeeeee;
-        color: #ff0000;
-    }
 `;

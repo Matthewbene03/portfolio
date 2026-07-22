@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   
   height: 100px;
-  padding: 0px 150px;
+  padding: 0px clamp(24px, 10.42vw, 150px) 0;
   
   position: fixed;
   top: 0px;

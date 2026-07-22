@@ -10,38 +10,16 @@ const appTheme = {
         colorBgBase: color.colorBgBase,
         colorTextBase: color.colorTextBase,
     },
-    headerStyle: {
-        textAlign: 'center',
-        color: color.PrimeiraCorClara,
-        height: 64,
-        lineHeight: '64px',
-        backgroundColor: color.PrimeiraCorClara,
-        margin: 0,
-        padding: 0,
-    },
     contentStyle: {
         flex: 1,
-        color: color.PrimeiraCorClara,
-        backgroundColor: color.PrimeiraCorClara,
-    },
-    footerStyle: {
-        textAlign: 'center',
-        color: color.PrimeiraCorClara,
-        backgroundColor: color.PrimeiraCorClara,
     },
     layoutStyle: {
-        display: 'flex',
-        flexDirection: 'column',
-
-        borderRadius: 8,
         overflow: 'hidden',
-        width: '100vw',
-        borderRadius: 0,
     },
     homeSection: {
         width: '100%',
         minHeight: '100vh',
-        padding: '100px 150px 0', // 100px em cima = altura do header
+        padding: '0px clamp(24px, 10.42vw, 150px) 0',
         margin: '0 auto',
         color: color.colorTextBase,
     },
@@ -51,7 +29,24 @@ const appTheme = {
     },
     homeSectionImagem: {
         width: '60%',
+        minWidth: 0,
+        height: 'calc(100vh - 100px)',
+        margin: '0 auto',
+    },
+    sobreSection: {
+        width: '100%',
+        padding: '0px clamp(24px, 10.42vw, 150px) 0',
+        margin: '0 auto',
         color: color.colorTextBase,
+    },
+    sobreSectionTexto: {
+        width: '40%',
+        color: color.colorTextBase,
+    },
+    sobreSectionCard: {
+        width: '60%',
+        minWidth: 0,
+        margin: '0 auto',
     },
 }
 

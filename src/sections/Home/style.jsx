@@ -26,13 +26,14 @@ export const Descricao = styled.p`
     color: ${color.colorTextBase};
 `;
 
-export const BtnCurriculo = styled.p`
+export const BtnCurriculo = styled.button`
     padding: 10px 20px;
     margin: 10px 0px;
 
     font-size: 18px;
 
     background-color: transparent;
+    font-family: inherit;
     color: ${color.colorLink};
     border: 2px solid ${color.colorLink};
     border-radius: 10px;
@@ -46,27 +47,20 @@ export const BtnCurriculo = styled.p`
     }
 `;
 
-export const BtnContatos = styled.p`
-    padding: 10px 20px;
-    margin: 10px 0px;
-
-    font-size: 18px;
-
-    background-color: transparent;
+export const BtnContatos = styled(BtnCurriculo)`
     color: ${color.CorCinzaClaro};
     border: 2px solid ${color.CorCinzaClaro};
-    border-radius: 10px;
-    
-    transition: background-color 0.7s;
-    cursor: pointer;
     
     &:hover{
         background-color: ${color.CorCinzaClaro};
-        color: ${color.colorTextBase};
     }
 `;
 
 export const Img = styled.img`
-    max-width: 100%;
-    max-height: 100%;
+  display: block;
+  width: 90%;
+  height: 90%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 `;

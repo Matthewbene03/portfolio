@@ -1,9 +1,5 @@
-import React from 'react';
-import { Link } from "react-router-dom";
 import { Button } from 'antd';
-
 import { Nav, ImgLogo } from "./styled";
-import logo from "../../../public/gemini-svg.svg"
 
 const NavItens = [
   { id: '1', label: 'Inicio' },
@@ -19,7 +15,7 @@ function Header() {
   return (
     <Nav className='margin-left-right-80porc'>
       <div>
-        <ImgLogo src={logo} />
+        <ImgLogo src="/gemini-svg.svg" alt='Logo do Matheus Benevenuto'/>
       </div>
 
       <div>
