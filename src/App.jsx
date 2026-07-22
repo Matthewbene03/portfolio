@@ -12,6 +12,7 @@ import GlobalStyles from './styles/GlobalStyles'
 import Header from "./components/Header/Header"
 import Home from "./sections/Home/Home"
 import Sobre from "./sections/Sobre/Sobre"
+import Tecnologias from "./sections/Tecnologias/Tecnologias"
 
 const { Content } = Layout
 
@@ -26,7 +27,7 @@ function App() {
               <Content style={appTheme.contentStyle}>
                  <Home/>
                  <Sobre/>
-                 <Home/>
+                 <Tecnologias/>
               </Content>
             </Layout>
             <GlobalStyles />

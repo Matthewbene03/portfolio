@@ -15,14 +15,13 @@ import {
 
 
 //Arquivos de configurações da sections
-import { card as cards } from "../../data/card";
-
+import {cardSobre} from "../../data/card";
 
 function CardSobre() {
   return (
     <CarouselContainer>
       <StyledCarousel
-        slidesToShow={2}
+        slidesToShow={3}
         slidesToScroll={1}
         arrows
         draggable
@@ -31,7 +30,7 @@ function CardSobre() {
         prevArrow={<LeftOutlined />}
         nextArrow={<RightOutlined />}
       >
-        {cards.map(({ id, icon: Icon, title, description }) => (
+        {cardSobre.map(({ id, icon: Icon, title, description }) => (
           <div key={id}>
             <Card
               vertical

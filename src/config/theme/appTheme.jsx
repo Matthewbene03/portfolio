@@ -19,7 +19,7 @@ const appTheme = {
     homeSection: {
         width: '100%',
         minHeight: '100vh',
-        padding: '0px clamp(24px, 10.42vw, 150px) 0',
+        padding: '0px clamp(24px, 10.42vw, 150px)',
         margin: '0 auto',
         color: color.colorTextBase,
     },
@@ -35,8 +35,8 @@ const appTheme = {
     },
     sobreSection: {
         width: '100%',
-        padding: '0px clamp(24px, 10.42vw, 150px) 0',
-        margin: '0 auto',
+        padding: '0px clamp(24px, 10.42vw, 150px)',
+        margin: '50px auto',
         color: color.colorTextBase,
     },
     sobreSectionTexto: {
@@ -47,6 +47,12 @@ const appTheme = {
         width: '60%',
         minWidth: 0,
         margin: '0 auto',
+    },
+    tecnologiaSection: {
+        width: '100%',
+        padding: '20px clamp(24px, 10.42vw, 150px)',
+        margin: '50px auto',
+        color: color.colorTextBase,
     },
 }
 

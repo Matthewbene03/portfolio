@@ -59,6 +59,10 @@ export const StyledCarousel = styled(Carousel)`
   .slick-next:hover::after {
     border-color: ${color.CorCinzaEscuro};
   }
+
+  .slick-dots {
+    bottom: -25px;
+  }
 `
 
 export const Card = styled(Flex)`

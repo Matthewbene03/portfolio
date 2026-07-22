@@ -4,7 +4,23 @@ import {
     RocketOutlined,
 } from "@ant-design/icons"
 
-export const card = [
+import {
+    SiSpringboot,
+    SiHtml5,
+    SiCss,
+    SiJavascript,
+    SiReact,
+    SiNodedotjs,
+    SiMysql,
+    SiGit,
+    SiGithub,
+    SiArduino,
+} from "react-icons/si";
+
+import { FaJava, FaGraduationCap } from "react-icons/fa";
+import { LuMicrochip } from "react-icons/lu";
+
+export const cardSobre = [
     {
         id: 'card1',
         icon: CodeOutlined,
@@ -29,10 +45,79 @@ export const card = [
         title: 'Interesses',
         description: 'Back-end, Front-end, Sistemas Embarcados, IA e Ciência de Dados.',
     },
-    // {
-    //     id: 'card5',
-    //     icon: GraduationCapOutlined,
-    //     title: '',
-    //     description: 'Música Mei de semana do DVD Na Mesa do Bar.',
-    // },
+]
+
+export const cardTecnologia = [
+    {
+        id: 1,
+        icon: FaJava,
+        color: "#EA2D2E",
+        name: "Java",
+    },
+    {
+        id: 2,
+        icon: SiSpringboot,
+        color: "#6DB33F",
+        name: "Spring Boot",
+    },
+    {
+        id: 3,
+        icon: SiHtml5,
+        color: "#dd4b25",
+        name: "HTML",
+    },
+    {
+        id: 4,
+        icon: SiCss,
+        color: "#254bdd",
+        name: "CSS",
+    },
+    {
+        id: 5,
+        icon: SiJavascript,
+        color: "#F7DF1E",
+        name: "JavaScript",
+    },
+    {
+        id: 6,
+        icon: SiReact,
+        color: "#61DAFB",
+        name: "React",
+    },
+    {
+        id: 7,
+        icon: SiNodedotjs,
+        color: "#6DB33F",
+        name: "NodeJs",
+    },
+    {
+        id: 8,
+        icon: SiMysql,
+        color: "#61DAFB",
+        name: "MySql",
+    },
+    {
+        id: 9,
+        icon: SiGit,
+        color: "#EA2D2E",
+        name: "Git",
+    },
+    {
+        id: 10,
+        icon: SiGithub,
+        color: "#ffffff",
+        name: "GitHub",
+    },
+    {
+        id: 11,
+        icon: SiArduino,
+        color: "#003d8e",
+        name: "Arduino",
+    },
+    {
+        id: 12,
+        icon: LuMicrochip,
+        color: "#515457",
+        name: "MicroChip - CI",
+    },
 ]

@@ -12,7 +12,7 @@ export const Titulo = styled.h2`
     line-height: 0.9;
     margin: 15px 0px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     white-space: pre-line;
     color: ${color.colorTextBase};
 `;
