@@ -13,6 +13,8 @@ import Header from "./components/Header/Header"
 import Home from "./sections/Home/Home"
 import Sobre from "./sections/Sobre/Sobre"
 import Tecnologias from "./sections/Tecnologias/Tecnologias"
+import Projetos from "./sections/Projetos/Projetos"
+import Contato from "./sections/Contato/Contato"
 
 const { Content } = Layout
 
@@ -28,6 +30,8 @@ function App() {
                  <Home/>
                  <Sobre/>
                  <Tecnologias/>
+                 <Projetos/>
+                 <Contato/>
               </Content>
             </Layout>
             <GlobalStyles />

@@ -17,7 +17,7 @@ export const StyledCarousel = styled(Carousel)`
       display: none;
     }
   
-  .slick-prev,
+  /* .slick-prev,
   .slick-next {
     width: 44px;
     height: 44px;
@@ -58,7 +58,7 @@ export const StyledCarousel = styled(Carousel)`
   .slick-prev:hover::after,
   .slick-next:hover::after {
     border-color: ${color.CorCinzaEscuro};
-  }
+  } */
 
   .slick-dots {
     bottom: -25px;

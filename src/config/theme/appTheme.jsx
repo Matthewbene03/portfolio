@@ -54,6 +54,20 @@ const appTheme = {
         margin: '50px auto',
         color: color.colorTextBase,
     },
+    contatoSection: {
+        width: '100%',
+        padding: '20px clamp(24px, 10.42vw, 150px)',
+        margin: '50px auto',
+        color: color.colorTextBase,
+    },
+    contatoSectionTexto: {
+        flex: 1,
+        color: color.colorTextBase,
+    },
+    contatoSectionContatos: {
+        flex: 1,
+        margin: '0 auto',
+    },
 }
 
 export default appTheme;

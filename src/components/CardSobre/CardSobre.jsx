@@ -27,8 +27,8 @@ function CardSobre() {
         draggable
         autoplay
         autoplaySpeed={2000}
-        prevArrow={<LeftOutlined />}
-        nextArrow={<RightOutlined />}
+        // prevArrow={<LeftOutlined />}
+        // nextArrow={<RightOutlined />}
       >
         {cardSobre.map(({ id, icon: Icon, title, description }) => (
           <div key={id}>
