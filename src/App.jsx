@@ -15,6 +15,7 @@ import Sobre from "./sections/Sobre/Sobre"
 import Tecnologias from "./sections/Tecnologias/Tecnologias"
 import Projetos from "./sections/Projetos/Projetos"
 import Contato from "./sections/Contato/Contato"
+import Footer from "./components/Footer/Footer"
 
 const { Content } = Layout
 
@@ -33,6 +34,7 @@ function App() {
                  <Projetos/>
                  <Contato/>
               </Content>
+              <Footer/>
             </Layout>
             <GlobalStyles />
         </BrowserRouter>

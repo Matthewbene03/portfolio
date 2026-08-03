@@ -3,7 +3,8 @@ import { DownloadOutlined, GithubOutlined, LinkedinFilled, MailOutlined } from '
 
 //Arquivos de configurações da sections
 import appTheme from "../../config/theme/appTheme"
-import { sobreTitulo, titulo, paragrafo, btnCurriculo} from "../../data/home"
+import { sobreTitulo, titulo, paragrafo, btnCurriculo } from "../../data/home"
+import { contatosPrincipais } from "../../data/contato"
 
 //Componentes proprios utilizados na section
 import urlImg from "../../img/imagensTestes/imgHome.webp"
@@ -27,27 +28,28 @@ export default function Home() {
         <Titulo>{titulo}</Titulo>
         <Descricao>{paragrafo}</Descricao>
         <Flex gap={"20px"}>
-          <BtnCurriculo>
+          <BtnCurriculo
+            href="/documents/curriculo/Matheus_Benevenuto_Ferreira_vaga_estagio.pdf"
+            target="_blank">
             <DownloadOutlined /> {btnCurriculo}
           </BtnCurriculo>
 
-          <BtnContatos>
-            <GithubOutlined />
-          </BtnContatos>
-
-          <BtnContatos>
-            <LinkedinFilled />
-          </BtnContatos>
-
-          <BtnContatos>
-            <MailOutlined />
-          </BtnContatos>
+          {contatosPrincipais.map(({ id, icon: Icon, title, url }) => (
+            <BtnContatos
+              key={id}
+              href={url}
+              target="_blank"
+              rel="noreferrer">
+              <Icon
+                size={50} className="iconLinkContato" />
+            </BtnContatos>
+          ))}
         </Flex>
       </Flex>
-      <Flex 
-      align="center"
-      justify="center"
-      style={appTheme.homeSectionImagem}>
+      <Flex
+        align="center"
+        justify="center"
+        style={appTheme.homeSectionImagem}>
         <Img src={urlImg} alt="" />
       </Flex>
     </Flex>

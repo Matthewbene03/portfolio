@@ -49,13 +49,4 @@ export const LinksContados = styled.a`
     & .iconLinkContato{
         font-size: 40px;
     }
-    
-    & .tituloLinkContato{
-        margin-top: 10px;
-        line-height: 1.3;
-        font-size: 18px;
-        font-weight: normal;
-        white-space: pre-line;
-        color: ${color.colorTextBase};
-    }
 `;

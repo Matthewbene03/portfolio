@@ -1,6 +1,6 @@
 //Componentes do antd
 import { Flex } from "antd";
-import { ArrowRightOutlined } from "@ant-design/icons";
+import { ArrowRightOutlined, UpOutlined } from "@ant-design/icons";
 
 // Componentes proprios utilizados para a criação da section Sobre
 import SectionTitle from "../../components/SectionTitle/SectionTitle"
@@ -8,12 +8,20 @@ import CardSobre from "../../components/CardSobre/CardSobre"
 
 //Arquivos de configurações da sections
 import appTheme from "../../config/theme/appTheme"
-import { sobreTitulo, titulo, align, paragrafo, btn } from "../../data/sobre";
+import { sobreTitulo, titulo, align, paragrafo, btn1, btn2 } from "../../data/sobre";
 
 //Componentes de estilos da pagina
-import {Descricao, Btn} from "./style"
+import { Descricao, Btn, ParagrafoDescricao } from "./style"
+import { useState } from "react";
 
 function Sobre() {
+
+  const [sobreMim, setSobreMim] = useState(false);
+
+  const SobreMimClick = () => {
+    const auxSobreMim = !sobreMim;
+    setSobreMim(auxSobreMim)
+  }
 
   return (
     <Flex
@@ -32,9 +40,6 @@ function Sobre() {
         <Descricao>
           {paragrafo}
         </Descricao>
-        <Btn>
-          {btn} <ArrowRightOutlined />
-        </Btn>
       </Flex>
       <Flex
         align="center"

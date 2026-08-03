@@ -26,7 +26,7 @@ export const Descricao = styled.p`
     color: ${color.colorTextBase};
 `;
 
-export const BtnCurriculo = styled.button`
+export const BtnCurriculo = styled.a`
     padding: 10px 20px;
     margin: 10px 0px;
 

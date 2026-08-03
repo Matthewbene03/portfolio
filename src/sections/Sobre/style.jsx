@@ -32,3 +32,12 @@ export const Btn = styled.button`
         color: ${color.colorTextBase};
     }
 `;
+
+export const ParagrafoDescricao = styled.p`
+    margin: 10px 0px;
+    line-height: 1.3;
+    font-size: 18px;
+    font-weight: normal;
+    white-space: pre-line;
+    color: ${color.colorTextBase};
+`;
