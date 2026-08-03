@@ -1,5 +1,5 @@
 import { Button } from 'antd';
-import { ContainerFooter, ImgLogo, ContainerLogo, ContainerLinksContados, LinksContados} from "./styled.jsx";
+import { ContainerFooter, ImgLogo, ContainerLogo, ContainerLinksContados, LinksContados} from "./Styled.jsx";
 import { redesSociais } from "../../data/contato";
 
 
